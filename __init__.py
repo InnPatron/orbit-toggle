@@ -35,7 +35,7 @@ class OrbitToggleOperator(bpy.types.Operator):
         if oldRotate == "TRACKBALL":
             newRotate = "TURNTABLE"
 
-        print("Swapping to: " + newRotate)
+        # print("Swapping to: " + newRotate)
         bpy.context.preferences.inputs.view_rotate_method = newRotate
         # print(bpy.context.preferences.inputs.view_rotate_method)
         return {'FINISHED'}
