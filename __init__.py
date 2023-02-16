@@ -7,7 +7,7 @@ bl_info = {
     "category": "3D View",
 }
 
-# source: https://github.com/aachman98/Sorcar/blob/master/__init__.py#L113
+# source: https://blenderartists.org/t/how-to-create-a-shortcut-for-a-custom-script/545177
 def register_keymaps():
     kc = bpy.context.window_manager.keyconfigs.addon
     if kc:
