@@ -12,7 +12,7 @@ class OrbitToggleOperator(bpy.types.Operator):
     bl_label = "Toggle Orbit"
 
     def execute(self, context):
-        print(bpy.types.inputs.ndof_view_rotate_method)
+        print(bpy.context.preferences.inputs.ndof_view_rotate_method)
         return {'FINISHED'}
 
 def register():
